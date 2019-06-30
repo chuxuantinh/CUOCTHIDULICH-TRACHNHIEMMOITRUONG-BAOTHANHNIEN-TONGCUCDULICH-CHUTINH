@@ -1,0 +1,43 @@
+a {
+	color: #145077;
+}
+
+a:hover, a:active, a:focus {
+	color: #145077;
+}
+
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus {
+	border: 1px solid #145077;
+	background: #145077;
+}
+
+#jasdl-mainnav li.active a,/*dropline*/
+#jasdl-mainnav li.active a:hover,
+#jasdl-mainnav li.active a:active,
+#jasdl-mainnav li.active a:focus, 
+#ja-splitmenu li.active a,/*split*/
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus,
+#ja-cssmenu li a.active,/*split + moo*/
+#ja-cssmenu li a.active:hover,
+#ja-cssmenu li a.active:active,
+#ja-cssmenu li a.active:focus {
+	background: url(../../images/deepblue/mainnav-active.gif) repeat-x top #145077;
+}
+
+#ja-subnav ul li ul li a.active {
+	color: #145077 !important;
+}
+
+#ja-subnav ul.active {
+	background: #145077;
+}
+
+#ja-subnav ul.active li {
+	border-left: 1px solid #598DAF;
+}
+
+#ja-subnav ul.active li:first-child {
+	border-left: 0;
+}

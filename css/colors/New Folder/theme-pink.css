@@ -1,0 +1,66 @@
+/*
+# ------------------------------------------------------------------------
+# JA Teline III template for Joomla 1.5
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2010 JoomlArt.com. All Rights Reserved.
+# @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+# bound by Proprietary License of JoomlArt. For details on licensing, 
+# Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+# Author: JoomlArt.com
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# Redistribution, Modification or Re-licensing of this file in part of full, 
+# is bound by the License applied. 
+# ------------------------------------------------------------------------
+*/
+
+a {
+	color: #ab1479;
+}
+
+a:hover, a:active, a:focus {
+	color: #ab1479;
+}
+
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus {
+	border: 1px solid #ab1479;
+	background: #ab1479;
+}
+
+.counter span {
+	background: #ab1479;
+	border: 1px solid #ab1479;
+}
+
+#jasdl-mainnav li.active a,/*dropline*/
+#jasdl-mainnav li.active a:hover,
+#jasdl-mainnav li.active a:active,
+#jasdl-mainnav li.active a:focus, 
+#ja-splitmenu li.active a,/*split*/
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus,
+#ja-cssmenu li a.active,/*split + moo*/
+#ja-cssmenu li a.active:hover,
+#ja-cssmenu li a.active:active,
+#ja-cssmenu li a.active:focus {
+	background: url(../../images/pink/mainnav-active.gif) repeat-x top #ab1479;
+}
+
+#ja-subnav ul li ul li a.active {
+	color: #ab1479 !important;
+}
+
+#ja-subnav ul.active {
+	background: #ab1479;
+}
+
+#ja-subnav ul.active li {
+	border-left: 1px solid #D370B2;
+}
+
+#ja-subnav ul.active li:first-child {
+	border-left: 0;
+}
+
+/* colour 2 */
+.leading { background-color: #FDF6FB; }

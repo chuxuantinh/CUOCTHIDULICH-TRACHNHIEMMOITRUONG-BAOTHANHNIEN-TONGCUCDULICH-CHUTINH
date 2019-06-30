@@ -1,0 +1,3 @@
+<?php
+Noi dung
+?>
